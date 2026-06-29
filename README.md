@@ -1,7 +1,7 @@
-# Deepfake Detector using EfficientNetV2-S
+# CIFAKE-Image-Classification-and-Explainable-Identification-of-AI-Generated-Synthetic-Images
 
 ---
-title: Deepfake Detector
+title: CIFAKE-Image-Classification-and-Explainable-Identification-of-AI-Generated-Synthetic-Images
 emoji: 🤖
 colorFrom: blue
 colorTo: red
@@ -12,9 +12,9 @@ app_file: app.py
 pinned: false
 ---
 
-# Deepfake Detector using EfficientNetV2-S
+# CIFAKE-Image-Classification-and-Explainable-Identification-of-AI-Generated-Synthetic-Images using EfficientNetV2-S
 
-AI-powered Deepfake Detection System built with PyTorch, EfficientNetV2-S, and Gradio.
+AI-powered CIFAKE-Images Detection System built with PyTorch, EfficientNetV2-S, and Gradio.
 
 ## Features
 
@@ -50,17 +50,15 @@ This project detects whether an image is REAL or FAKE using a deep learning mode
 
 ## Dataset
 
-CIFAKE Dataset
+CIFAKE Dataset (not included in this repository due to size limitations). Download the dataset separately and place it in the following structure:
 
-Train Images : 100000
+train/
+   FAKE/
+   REAL/
 
-Test Images : 20000
-
-Classes
-
-- FAKE
-- REAL
-
+test/
+   FAKE/
+   REAL/
 ---
 
 ## Tech Stack
@@ -131,7 +129,7 @@ python webcam.py
 
 ## Web Application
 
-https://huggingface.co/spaces/Tanujthakur-5/deepfake-detector
+https://huggingface.co/spaces/bhavna-5/deepfake-detector
 
 ---
 
